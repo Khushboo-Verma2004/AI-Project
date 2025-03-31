@@ -100,12 +100,12 @@ test('Generated Test', async ({{ page }}) => {{
                 results.map(el => el.innerText.trim()).filter(text => text.length > 0)
             );
 
-            console.log("✅ Extracted Search Results:", searchResults);
+            console.log("Extracted Search Results:", searchResults);
             expect(searchResults.length).toBeGreaterThanOrEqual(3);
         }}
     }}
 
-    // ✅ Handle search results if AI provided them
+    // Handle search results if AI provided them
 """
 
     if search_result_selector:
@@ -139,7 +139,7 @@ test('Generated Test', async ({{ page }}) => {{
     console.log("Taking a screenshot...");
     await page.screenshot({ path: 'debug_screenshot.png', fullPage: true });
 
-    console.log("✅ Test completed successfully!");
+    console.log("Test completed successfully!");
 });
 """
 
