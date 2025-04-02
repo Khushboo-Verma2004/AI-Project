@@ -4,6 +4,9 @@ import json
 from playwright.sync_api import sync_playwright
 from Selector.selector import get_actions 
 
+# Model configuration
+MODEL_NAME = "google/gemini-2.0-flash-exp:free"  # Changed to experimental model
+
 def fetch_html(url):
     try:
         with sync_playwright() as p:
@@ -25,9 +28,9 @@ def generate_and_run_test(url, prompt):
         print("Error: Could not fetch HTML. Exiting.")
         return
     
-    print("\nSending HTML & prompt to AI for action generation...")
+    print(f"\nSending HTML & prompt to {MODEL_NAME} for action generation...")
     try:
-        ai_response = get_actions(html, prompt)
+        ai_response = get_actions(html, prompt, model_name=MODEL_NAME)  # Passing model name
         print("\nAI Response Debug:", json.dumps(ai_response, indent=2))
         
         if isinstance(ai_response, list):
@@ -54,7 +57,7 @@ def generate_and_run_test(url, prompt):
     print("Generating test file...\n")
 
     test_file = "tests/generated_test.spec.js"
-    os.makedirs("tests", exist_ok=True)  # Ensure the directory exists
+    os.makedirs("tests", exist_ok=True)
 
     if os.path.exists(test_file):
         os.remove(test_file)
@@ -93,19 +96,14 @@ test('Generated Test', async ({{ page }}) => {{
         }} else if (action.type === "extract") {{
             console.log("⏳ Extracting search results...");
             await page.waitForTimeout(5000); 
-
             await page.waitForSelector(action.selector, {{ timeout: 20000 }});
-
             const searchResults = await page.$$eval(action.selector, results => 
                 results.map(el => el.innerText.trim()).filter(text => text.length > 0)
             );
-
             console.log("Extracted Search Results:", searchResults);
             expect(searchResults.length).toBeGreaterThanOrEqual(3);
         }}
     }}
-
-    // Handle search results if AI provided them
 """
 
     if search_result_selector:
@@ -138,7 +136,6 @@ test('Generated Test', async ({{ page }}) => {{
     // Capture a screenshot for debugging
     console.log("Taking a screenshot...");
     await page.screenshot({ path: 'debug_screenshot.png', fullPage: true });
-
     console.log("Test completed successfully!");
 });
 """
