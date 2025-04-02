@@ -1,0 +1,994 @@
+2025-04-02 22:14:32,440 - INFO - Database initialized successfully
+2025-04-02 22:14:32,441 - INFO - ElementLabeler initialized successfully
+2025-04-02 22:17:11,816 - INFO - Database initialized successfully
+2025-04-02 22:17:11,817 - INFO - ElementLabeler initialized successfully
+2025-04-02 22:17:21,975 - INFO - Starting capture and label for https://www.flipkart.com
+2025-04-02 22:17:35,766 - ERROR - Capture and label failed: Page.screenshot: options.quality is unsupported for the png screenshots
+2025-04-02 22:27:31,333 - INFO - Database initialized successfully
+2025-04-02 22:27:31,334 - INFO - ElementLabeler initialized successfully
+2025-04-02 22:27:39,819 - INFO - Starting capture and label for https://www.flipkart.com
+2025-04-02 22:27:48,281 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250402_222748.png
+2025-04-02 22:27:48,510 - INFO - Found 414 elements to label
+2025-04-02 22:27:51,643 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250402_222748_labeled.png
+2025-04-02 22:29:23,955 - INFO - Database initialized successfully
+2025-04-02 22:29:23,956 - INFO - ElementLabeler initialized successfully
+2025-04-02 22:30:40,478 - INFO - Starting capture and label for https://www.flipkart.com
+2025-04-02 22:30:48,827 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250402_223048.png
+2025-04-02 22:30:49,217 - INFO - Found 414 elements to label
+2025-04-02 22:30:49,491 - ERROR - Failed to store element L-2: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,492 - WARNING - Failed to process element 2: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,505 - ERROR - Failed to store element L-3: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,505 - WARNING - Failed to process element 3: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,522 - ERROR - Failed to store element L-4: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,522 - WARNING - Failed to process element 4: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,550 - ERROR - Failed to store element L-11: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,550 - WARNING - Failed to process element 11: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,577 - ERROR - Failed to store element L-19: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,577 - WARNING - Failed to process element 19: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,587 - ERROR - Failed to store element L-21: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,587 - WARNING - Failed to process element 21: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,596 - ERROR - Failed to store element L-22: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,596 - WARNING - Failed to process element 22: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,607 - ERROR - Failed to store element L-23: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,607 - WARNING - Failed to process element 23: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,614 - ERROR - Failed to store element L-24: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,615 - WARNING - Failed to process element 24: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,623 - ERROR - Failed to store element L-25: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,623 - WARNING - Failed to process element 25: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,658 - ERROR - Failed to store element L-30: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,658 - WARNING - Failed to process element 30: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,667 - ERROR - Failed to store element L-31: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,667 - WARNING - Failed to process element 31: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,680 - ERROR - Failed to store element L-32: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,680 - WARNING - Failed to process element 32: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,690 - ERROR - Failed to store element L-33: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,690 - WARNING - Failed to process element 33: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,700 - ERROR - Failed to store element L-34: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,700 - WARNING - Failed to process element 34: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,709 - ERROR - Failed to store element L-35: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,710 - WARNING - Failed to process element 35: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,716 - ERROR - Failed to store element L-36: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,717 - WARNING - Failed to process element 36: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,723 - ERROR - Failed to store element L-37: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,724 - WARNING - Failed to process element 37: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,730 - ERROR - Failed to store element L-38: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,730 - WARNING - Failed to process element 38: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,737 - ERROR - Failed to store element L-39: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,737 - WARNING - Failed to process element 39: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,745 - ERROR - Failed to store element L-40: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,745 - WARNING - Failed to process element 40: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,756 - ERROR - Failed to store element L-41: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,756 - WARNING - Failed to process element 41: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,767 - ERROR - Failed to store element L-42: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,767 - WARNING - Failed to process element 42: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,776 - ERROR - Failed to store element L-43: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,776 - WARNING - Failed to process element 43: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,783 - ERROR - Failed to store element L-44: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,783 - WARNING - Failed to process element 44: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,791 - ERROR - Failed to store element L-45: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,791 - WARNING - Failed to process element 45: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,798 - ERROR - Failed to store element L-46: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,799 - WARNING - Failed to process element 46: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,811 - ERROR - Failed to store element L-47: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,811 - WARNING - Failed to process element 47: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,819 - ERROR - Failed to store element L-48: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,819 - WARNING - Failed to process element 48: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,829 - ERROR - Failed to store element L-49: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,829 - WARNING - Failed to process element 49: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,836 - ERROR - Failed to store element L-50: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,836 - WARNING - Failed to process element 50: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,845 - ERROR - Failed to store element L-51: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,845 - WARNING - Failed to process element 51: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,860 - ERROR - Failed to store element L-52: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,860 - WARNING - Failed to process element 52: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,868 - ERROR - Failed to store element L-53: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,868 - WARNING - Failed to process element 53: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,877 - ERROR - Failed to store element L-54: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,877 - WARNING - Failed to process element 54: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,884 - ERROR - Failed to store element L-55: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,884 - WARNING - Failed to process element 55: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,894 - ERROR - Failed to store element L-56: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,894 - WARNING - Failed to process element 56: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,903 - ERROR - Failed to store element L-57: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,903 - WARNING - Failed to process element 57: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,914 - ERROR - Failed to store element L-58: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,914 - WARNING - Failed to process element 58: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,922 - ERROR - Failed to store element L-59: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,922 - WARNING - Failed to process element 59: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,930 - ERROR - Failed to store element L-60: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,930 - WARNING - Failed to process element 60: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,937 - ERROR - Failed to store element L-61: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,938 - WARNING - Failed to process element 61: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,946 - ERROR - Failed to store element L-62: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,946 - WARNING - Failed to process element 62: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,951 - ERROR - Failed to store element L-63: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,952 - WARNING - Failed to process element 63: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,960 - ERROR - Failed to store element L-64: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,960 - WARNING - Failed to process element 64: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,966 - ERROR - Failed to store element L-65: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,966 - WARNING - Failed to process element 65: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,973 - ERROR - Failed to store element L-66: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,973 - WARNING - Failed to process element 66: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,979 - ERROR - Failed to store element L-67: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,979 - WARNING - Failed to process element 67: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,986 - ERROR - Failed to store element L-68: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,986 - WARNING - Failed to process element 68: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,994 - ERROR - Failed to store element L-69: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:49,994 - WARNING - Failed to process element 69: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,001 - ERROR - Failed to store element L-70: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,001 - WARNING - Failed to process element 70: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,009 - ERROR - Failed to store element L-71: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,009 - WARNING - Failed to process element 71: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,016 - ERROR - Failed to store element L-72: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,016 - WARNING - Failed to process element 72: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,023 - ERROR - Failed to store element L-73: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,023 - WARNING - Failed to process element 73: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,029 - ERROR - Failed to store element L-74: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,029 - WARNING - Failed to process element 74: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,035 - ERROR - Failed to store element L-75: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,035 - WARNING - Failed to process element 75: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,042 - ERROR - Failed to store element L-76: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,042 - WARNING - Failed to process element 76: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,048 - ERROR - Failed to store element L-77: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,048 - WARNING - Failed to process element 77: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,053 - ERROR - Failed to store element L-78: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,053 - WARNING - Failed to process element 78: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,061 - ERROR - Failed to store element L-79: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,061 - WARNING - Failed to process element 79: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,067 - ERROR - Failed to store element L-80: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,067 - WARNING - Failed to process element 80: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,073 - ERROR - Failed to store element L-81: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,073 - WARNING - Failed to process element 81: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,079 - ERROR - Failed to store element L-82: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,079 - WARNING - Failed to process element 82: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,085 - ERROR - Failed to store element L-83: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,085 - WARNING - Failed to process element 83: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,091 - ERROR - Failed to store element L-84: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,091 - WARNING - Failed to process element 84: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,097 - ERROR - Failed to store element L-85: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,097 - WARNING - Failed to process element 85: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,103 - ERROR - Failed to store element L-86: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,103 - WARNING - Failed to process element 86: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,109 - ERROR - Failed to store element L-87: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,109 - WARNING - Failed to process element 87: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,114 - ERROR - Failed to store element L-88: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,114 - WARNING - Failed to process element 88: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,120 - ERROR - Failed to store element L-89: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,120 - WARNING - Failed to process element 89: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,126 - ERROR - Failed to store element L-90: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,126 - WARNING - Failed to process element 90: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,131 - ERROR - Failed to store element L-91: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,131 - WARNING - Failed to process element 91: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,136 - ERROR - Failed to store element L-92: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,136 - WARNING - Failed to process element 92: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,142 - ERROR - Failed to store element L-93: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,142 - WARNING - Failed to process element 93: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,147 - ERROR - Failed to store element L-94: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,148 - WARNING - Failed to process element 94: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,152 - ERROR - Failed to store element L-95: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,153 - WARNING - Failed to process element 95: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,158 - ERROR - Failed to store element L-96: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,158 - WARNING - Failed to process element 96: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,163 - ERROR - Failed to store element L-97: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,163 - WARNING - Failed to process element 97: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,168 - ERROR - Failed to store element L-98: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,168 - WARNING - Failed to process element 98: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,173 - ERROR - Failed to store element L-99: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,173 - WARNING - Failed to process element 99: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,179 - ERROR - Failed to store element L-100: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,179 - WARNING - Failed to process element 100: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,184 - ERROR - Failed to store element L-101: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,184 - WARNING - Failed to process element 101: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,189 - ERROR - Failed to store element L-102: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,190 - WARNING - Failed to process element 102: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,195 - ERROR - Failed to store element L-103: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,195 - WARNING - Failed to process element 103: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,200 - ERROR - Failed to store element L-104: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,200 - WARNING - Failed to process element 104: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,206 - ERROR - Failed to store element L-105: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,206 - WARNING - Failed to process element 105: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,211 - ERROR - Failed to store element L-106: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,211 - WARNING - Failed to process element 106: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,217 - ERROR - Failed to store element L-107: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,217 - WARNING - Failed to process element 107: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,223 - ERROR - Failed to store element L-108: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,224 - WARNING - Failed to process element 108: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,230 - ERROR - Failed to store element L-109: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,230 - WARNING - Failed to process element 109: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,236 - ERROR - Failed to store element L-110: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,236 - WARNING - Failed to process element 110: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,243 - ERROR - Failed to store element L-111: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,243 - WARNING - Failed to process element 111: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,249 - ERROR - Failed to store element L-112: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,249 - WARNING - Failed to process element 112: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,260 - ERROR - Failed to store element L-113: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,260 - WARNING - Failed to process element 113: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,266 - ERROR - Failed to store element L-114: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,266 - WARNING - Failed to process element 114: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,274 - ERROR - Failed to store element L-115: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,274 - WARNING - Failed to process element 115: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,279 - ERROR - Failed to store element L-116: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,280 - WARNING - Failed to process element 116: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,285 - ERROR - Failed to store element L-117: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,285 - WARNING - Failed to process element 117: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,292 - ERROR - Failed to store element L-118: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,292 - WARNING - Failed to process element 118: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,297 - ERROR - Failed to store element L-119: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,297 - WARNING - Failed to process element 119: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,303 - ERROR - Failed to store element L-120: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,303 - WARNING - Failed to process element 120: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,312 - ERROR - Failed to store element L-121: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,312 - WARNING - Failed to process element 121: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,318 - ERROR - Failed to store element L-122: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,318 - WARNING - Failed to process element 122: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,324 - ERROR - Failed to store element L-123: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,324 - WARNING - Failed to process element 123: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,329 - ERROR - Failed to store element L-124: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,330 - WARNING - Failed to process element 124: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,335 - ERROR - Failed to store element L-125: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,335 - WARNING - Failed to process element 125: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,340 - ERROR - Failed to store element L-126: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,341 - WARNING - Failed to process element 126: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,346 - ERROR - Failed to store element L-127: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,346 - WARNING - Failed to process element 127: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,351 - ERROR - Failed to store element L-128: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,352 - WARNING - Failed to process element 128: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,358 - ERROR - Failed to store element L-129: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,358 - WARNING - Failed to process element 129: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,363 - ERROR - Failed to store element L-130: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,363 - WARNING - Failed to process element 130: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,368 - ERROR - Failed to store element L-131: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,368 - WARNING - Failed to process element 131: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,375 - ERROR - Failed to store element L-132: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,375 - WARNING - Failed to process element 132: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,380 - ERROR - Failed to store element L-133: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,380 - WARNING - Failed to process element 133: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,385 - ERROR - Failed to store element L-134: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,385 - WARNING - Failed to process element 134: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,390 - ERROR - Failed to store element L-135: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,390 - WARNING - Failed to process element 135: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,395 - ERROR - Failed to store element L-136: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,396 - WARNING - Failed to process element 136: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,401 - ERROR - Failed to store element L-137: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,401 - WARNING - Failed to process element 137: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,408 - ERROR - Failed to store element L-138: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,408 - WARNING - Failed to process element 138: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,413 - ERROR - Failed to store element L-139: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,413 - WARNING - Failed to process element 139: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,418 - ERROR - Failed to store element L-140: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,418 - WARNING - Failed to process element 140: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,424 - ERROR - Failed to store element L-141: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,424 - WARNING - Failed to process element 141: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,429 - ERROR - Failed to store element L-142: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,429 - WARNING - Failed to process element 142: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,434 - ERROR - Failed to store element L-143: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,434 - WARNING - Failed to process element 143: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,440 - ERROR - Failed to store element L-144: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,440 - WARNING - Failed to process element 144: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,445 - ERROR - Failed to store element L-145: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,445 - WARNING - Failed to process element 145: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,450 - ERROR - Failed to store element L-146: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,450 - WARNING - Failed to process element 146: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,456 - ERROR - Failed to store element L-147: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,456 - WARNING - Failed to process element 147: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,461 - ERROR - Failed to store element L-148: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,462 - WARNING - Failed to process element 148: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,467 - ERROR - Failed to store element L-149: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,467 - WARNING - Failed to process element 149: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,472 - ERROR - Failed to store element L-150: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,472 - WARNING - Failed to process element 150: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,477 - ERROR - Failed to store element L-151: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,478 - WARNING - Failed to process element 151: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,483 - ERROR - Failed to store element L-152: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,483 - WARNING - Failed to process element 152: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,488 - ERROR - Failed to store element L-153: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,488 - WARNING - Failed to process element 153: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,494 - ERROR - Failed to store element L-154: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,494 - WARNING - Failed to process element 154: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,499 - ERROR - Failed to store element L-155: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,499 - WARNING - Failed to process element 155: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,504 - ERROR - Failed to store element L-156: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,504 - WARNING - Failed to process element 156: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,510 - ERROR - Failed to store element L-157: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,511 - WARNING - Failed to process element 157: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,515 - ERROR - Failed to store element L-158: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,516 - WARNING - Failed to process element 158: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,521 - ERROR - Failed to store element L-159: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,521 - WARNING - Failed to process element 159: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,527 - ERROR - Failed to store element L-160: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,527 - WARNING - Failed to process element 160: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,533 - ERROR - Failed to store element L-161: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,533 - WARNING - Failed to process element 161: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,541 - ERROR - Failed to store element L-162: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,541 - WARNING - Failed to process element 162: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,547 - ERROR - Failed to store element L-163: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,547 - WARNING - Failed to process element 163: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,553 - ERROR - Failed to store element L-164: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,553 - WARNING - Failed to process element 164: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,560 - ERROR - Failed to store element L-165: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,560 - WARNING - Failed to process element 165: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,565 - ERROR - Failed to store element L-166: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,566 - WARNING - Failed to process element 166: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,571 - ERROR - Failed to store element L-167: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,571 - WARNING - Failed to process element 167: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,577 - ERROR - Failed to store element L-168: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,577 - WARNING - Failed to process element 168: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,582 - ERROR - Failed to store element L-169: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,582 - WARNING - Failed to process element 169: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,587 - ERROR - Failed to store element L-170: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,587 - WARNING - Failed to process element 170: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,593 - ERROR - Failed to store element L-171: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,593 - WARNING - Failed to process element 171: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,598 - ERROR - Failed to store element L-172: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,598 - WARNING - Failed to process element 172: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,603 - ERROR - Failed to store element L-173: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,603 - WARNING - Failed to process element 173: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,609 - ERROR - Failed to store element L-174: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,610 - WARNING - Failed to process element 174: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,615 - ERROR - Failed to store element L-175: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,615 - WARNING - Failed to process element 175: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,621 - ERROR - Failed to store element L-176: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,621 - WARNING - Failed to process element 176: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,629 - ERROR - Failed to store element L-177: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,629 - WARNING - Failed to process element 177: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,634 - ERROR - Failed to store element L-178: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,634 - WARNING - Failed to process element 178: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,640 - ERROR - Failed to store element L-179: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,641 - WARNING - Failed to process element 179: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,646 - ERROR - Failed to store element L-180: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,646 - WARNING - Failed to process element 180: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,654 - ERROR - Failed to store element L-181: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,654 - WARNING - Failed to process element 181: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,661 - ERROR - Failed to store element L-182: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,661 - WARNING - Failed to process element 182: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,666 - ERROR - Failed to store element L-183: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,666 - WARNING - Failed to process element 183: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,671 - ERROR - Failed to store element L-184: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,671 - WARNING - Failed to process element 184: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,677 - ERROR - Failed to store element L-185: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,677 - WARNING - Failed to process element 185: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,683 - ERROR - Failed to store element L-186: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,683 - WARNING - Failed to process element 186: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,690 - ERROR - Failed to store element L-187: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,690 - WARNING - Failed to process element 187: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,695 - ERROR - Failed to store element L-188: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,695 - WARNING - Failed to process element 188: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,700 - ERROR - Failed to store element L-189: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,700 - WARNING - Failed to process element 189: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,706 - ERROR - Failed to store element L-190: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,706 - WARNING - Failed to process element 190: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,711 - ERROR - Failed to store element L-191: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,711 - WARNING - Failed to process element 191: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,716 - ERROR - Failed to store element L-192: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,717 - WARNING - Failed to process element 192: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,721 - ERROR - Failed to store element L-193: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,722 - WARNING - Failed to process element 193: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,727 - ERROR - Failed to store element L-194: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,727 - WARNING - Failed to process element 194: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,732 - ERROR - Failed to store element L-195: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,733 - WARNING - Failed to process element 195: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,738 - ERROR - Failed to store element L-196: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,738 - WARNING - Failed to process element 196: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,768 - ERROR - Failed to store element L-197: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,768 - WARNING - Failed to process element 197: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,773 - ERROR - Failed to store element L-198: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,773 - WARNING - Failed to process element 198: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,779 - ERROR - Failed to store element L-199: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,779 - WARNING - Failed to process element 199: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,785 - ERROR - Failed to store element L-200: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,785 - WARNING - Failed to process element 200: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,791 - ERROR - Failed to store element L-201: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,791 - WARNING - Failed to process element 201: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,796 - ERROR - Failed to store element L-202: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,797 - WARNING - Failed to process element 202: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,802 - ERROR - Failed to store element L-203: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,802 - WARNING - Failed to process element 203: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,809 - ERROR - Failed to store element L-204: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,809 - WARNING - Failed to process element 204: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,815 - ERROR - Failed to store element L-205: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,815 - WARNING - Failed to process element 205: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,820 - ERROR - Failed to store element L-206: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,821 - WARNING - Failed to process element 206: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,826 - ERROR - Failed to store element L-207: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,826 - WARNING - Failed to process element 207: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,831 - ERROR - Failed to store element L-208: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,831 - WARNING - Failed to process element 208: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,836 - ERROR - Failed to store element L-209: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,836 - WARNING - Failed to process element 209: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,842 - ERROR - Failed to store element L-210: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,843 - WARNING - Failed to process element 210: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,848 - ERROR - Failed to store element L-211: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,848 - WARNING - Failed to process element 211: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,853 - ERROR - Failed to store element L-212: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,853 - WARNING - Failed to process element 212: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,859 - ERROR - Failed to store element L-213: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,859 - WARNING - Failed to process element 213: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,864 - ERROR - Failed to store element L-214: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,864 - WARNING - Failed to process element 214: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,869 - ERROR - Failed to store element L-215: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,869 - WARNING - Failed to process element 215: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,875 - ERROR - Failed to store element L-216: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,875 - WARNING - Failed to process element 216: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,880 - ERROR - Failed to store element L-217: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,880 - WARNING - Failed to process element 217: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,885 - ERROR - Failed to store element L-218: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,885 - WARNING - Failed to process element 218: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,890 - ERROR - Failed to store element L-219: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,890 - WARNING - Failed to process element 219: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,895 - ERROR - Failed to store element L-220: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,895 - WARNING - Failed to process element 220: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,900 - ERROR - Failed to store element L-221: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,900 - WARNING - Failed to process element 221: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,906 - ERROR - Failed to store element L-222: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,906 - WARNING - Failed to process element 222: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,912 - ERROR - Failed to store element L-223: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,912 - WARNING - Failed to process element 223: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,918 - ERROR - Failed to store element L-224: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,918 - WARNING - Failed to process element 224: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,925 - ERROR - Failed to store element L-225: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,925 - WARNING - Failed to process element 225: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,931 - ERROR - Failed to store element L-226: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,931 - WARNING - Failed to process element 226: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,938 - ERROR - Failed to store element L-227: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,938 - WARNING - Failed to process element 227: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,945 - ERROR - Failed to store element L-228: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,945 - WARNING - Failed to process element 228: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,951 - ERROR - Failed to store element L-229: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,951 - WARNING - Failed to process element 229: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,957 - ERROR - Failed to store element L-230: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,957 - WARNING - Failed to process element 230: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,963 - ERROR - Failed to store element L-231: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,963 - WARNING - Failed to process element 231: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,969 - ERROR - Failed to store element L-232: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,969 - WARNING - Failed to process element 232: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,976 - ERROR - Failed to store element L-233: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,976 - WARNING - Failed to process element 233: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,981 - ERROR - Failed to store element L-234: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,982 - WARNING - Failed to process element 234: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,988 - ERROR - Failed to store element L-235: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,988 - WARNING - Failed to process element 235: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,995 - ERROR - Failed to store element L-236: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:50,995 - WARNING - Failed to process element 236: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,002 - ERROR - Failed to store element L-237: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,002 - WARNING - Failed to process element 237: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,007 - ERROR - Failed to store element L-238: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,008 - WARNING - Failed to process element 238: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,013 - ERROR - Failed to store element L-239: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,013 - WARNING - Failed to process element 239: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,019 - ERROR - Failed to store element L-240: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,019 - WARNING - Failed to process element 240: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,025 - ERROR - Failed to store element L-241: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,026 - WARNING - Failed to process element 241: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,033 - ERROR - Failed to store element L-242: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,033 - WARNING - Failed to process element 242: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,038 - ERROR - Failed to store element L-243: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,038 - WARNING - Failed to process element 243: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,044 - ERROR - Failed to store element L-244: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,044 - WARNING - Failed to process element 244: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,050 - ERROR - Failed to store element L-245: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,050 - WARNING - Failed to process element 245: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,058 - ERROR - Failed to store element L-246: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,058 - WARNING - Failed to process element 246: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,063 - ERROR - Failed to store element L-247: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,063 - WARNING - Failed to process element 247: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,068 - ERROR - Failed to store element L-248: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,068 - WARNING - Failed to process element 248: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,073 - ERROR - Failed to store element L-249: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,074 - WARNING - Failed to process element 249: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,079 - ERROR - Failed to store element L-250: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,079 - WARNING - Failed to process element 250: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,084 - ERROR - Failed to store element L-251: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,084 - WARNING - Failed to process element 251: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,089 - ERROR - Failed to store element L-252: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,089 - WARNING - Failed to process element 252: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,095 - ERROR - Failed to store element L-253: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,095 - WARNING - Failed to process element 253: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,100 - ERROR - Failed to store element L-254: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,100 - WARNING - Failed to process element 254: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,105 - ERROR - Failed to store element L-255: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,105 - WARNING - Failed to process element 255: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,111 - ERROR - Failed to store element L-256: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,111 - WARNING - Failed to process element 256: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,116 - ERROR - Failed to store element L-257: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,116 - WARNING - Failed to process element 257: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,121 - ERROR - Failed to store element L-258: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,121 - WARNING - Failed to process element 258: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,128 - ERROR - Failed to store element L-259: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,129 - WARNING - Failed to process element 259: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,133 - ERROR - Failed to store element L-260: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,133 - WARNING - Failed to process element 260: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,139 - ERROR - Failed to store element L-261: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,139 - WARNING - Failed to process element 261: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,145 - ERROR - Failed to store element L-262: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,145 - WARNING - Failed to process element 262: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,151 - ERROR - Failed to store element L-263: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,151 - WARNING - Failed to process element 263: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,157 - ERROR - Failed to store element L-264: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,157 - WARNING - Failed to process element 264: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,163 - ERROR - Failed to store element L-265: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,163 - WARNING - Failed to process element 265: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,168 - ERROR - Failed to store element L-266: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,168 - WARNING - Failed to process element 266: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,173 - ERROR - Failed to store element L-267: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,174 - WARNING - Failed to process element 267: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,179 - ERROR - Failed to store element L-268: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,180 - WARNING - Failed to process element 268: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,185 - ERROR - Failed to store element L-269: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,185 - WARNING - Failed to process element 269: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,190 - ERROR - Failed to store element L-270: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,190 - WARNING - Failed to process element 270: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,195 - ERROR - Failed to store element L-271: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,195 - WARNING - Failed to process element 271: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,200 - ERROR - Failed to store element L-272: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,200 - WARNING - Failed to process element 272: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,205 - ERROR - Failed to store element L-273: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,205 - WARNING - Failed to process element 273: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,211 - ERROR - Failed to store element L-274: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,211 - WARNING - Failed to process element 274: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,216 - ERROR - Failed to store element L-275: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,216 - WARNING - Failed to process element 275: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,221 - ERROR - Failed to store element L-276: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,221 - WARNING - Failed to process element 276: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,227 - ERROR - Failed to store element L-277: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,227 - WARNING - Failed to process element 277: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,232 - ERROR - Failed to store element L-278: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,232 - WARNING - Failed to process element 278: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,237 - ERROR - Failed to store element L-279: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,237 - WARNING - Failed to process element 279: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,243 - ERROR - Failed to store element L-280: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,243 - WARNING - Failed to process element 280: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,249 - ERROR - Failed to store element L-281: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,249 - WARNING - Failed to process element 281: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,291 - ERROR - Failed to store element L-282: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,292 - WARNING - Failed to process element 282: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,307 - ERROR - Failed to store element L-283: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,307 - WARNING - Failed to process element 283: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,314 - ERROR - Failed to store element L-284: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,314 - WARNING - Failed to process element 284: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,319 - ERROR - Failed to store element L-285: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,319 - WARNING - Failed to process element 285: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,324 - ERROR - Failed to store element L-286: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,325 - WARNING - Failed to process element 286: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,329 - ERROR - Failed to store element L-287: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,330 - WARNING - Failed to process element 287: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,335 - ERROR - Failed to store element L-288: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,335 - WARNING - Failed to process element 288: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,340 - ERROR - Failed to store element L-289: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,340 - WARNING - Failed to process element 289: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,346 - ERROR - Failed to store element L-290: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,346 - WARNING - Failed to process element 290: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,351 - ERROR - Failed to store element L-291: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,351 - WARNING - Failed to process element 291: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,357 - ERROR - Failed to store element L-292: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,357 - WARNING - Failed to process element 292: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,362 - ERROR - Failed to store element L-293: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,362 - WARNING - Failed to process element 293: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,367 - ERROR - Failed to store element L-294: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,367 - WARNING - Failed to process element 294: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,374 - ERROR - Failed to store element L-295: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,374 - WARNING - Failed to process element 295: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,379 - ERROR - Failed to store element L-296: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,379 - WARNING - Failed to process element 296: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,385 - ERROR - Failed to store element L-297: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,385 - WARNING - Failed to process element 297: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,390 - ERROR - Failed to store element L-298: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,390 - WARNING - Failed to process element 298: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,396 - ERROR - Failed to store element L-299: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,396 - WARNING - Failed to process element 299: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,401 - ERROR - Failed to store element L-300: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,401 - WARNING - Failed to process element 300: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,407 - ERROR - Failed to store element L-301: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,407 - WARNING - Failed to process element 301: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,412 - ERROR - Failed to store element L-302: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,412 - WARNING - Failed to process element 302: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,417 - ERROR - Failed to store element L-303: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,417 - WARNING - Failed to process element 303: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,423 - ERROR - Failed to store element L-304: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,423 - WARNING - Failed to process element 304: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,429 - ERROR - Failed to store element L-305: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,429 - WARNING - Failed to process element 305: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,434 - ERROR - Failed to store element L-306: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,434 - WARNING - Failed to process element 306: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,438 - ERROR - Failed to store element L-307: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,438 - WARNING - Failed to process element 307: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,444 - ERROR - Failed to store element L-308: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,444 - WARNING - Failed to process element 308: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,449 - ERROR - Failed to store element L-309: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,449 - WARNING - Failed to process element 309: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,454 - ERROR - Failed to store element L-310: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,454 - WARNING - Failed to process element 310: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,460 - ERROR - Failed to store element L-311: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,460 - WARNING - Failed to process element 311: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,465 - ERROR - Failed to store element L-312: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,465 - WARNING - Failed to process element 312: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,470 - ERROR - Failed to store element L-313: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,471 - WARNING - Failed to process element 313: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,479 - ERROR - Failed to store element L-314: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,479 - WARNING - Failed to process element 314: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,484 - ERROR - Failed to store element L-315: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,484 - WARNING - Failed to process element 315: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,490 - ERROR - Failed to store element L-316: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,490 - WARNING - Failed to process element 316: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,496 - ERROR - Failed to store element L-317: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,496 - WARNING - Failed to process element 317: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,501 - ERROR - Failed to store element L-318: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,501 - WARNING - Failed to process element 318: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,506 - ERROR - Failed to store element L-319: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,506 - WARNING - Failed to process element 319: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,512 - ERROR - Failed to store element L-320: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,512 - WARNING - Failed to process element 320: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,517 - ERROR - Failed to store element L-321: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,517 - WARNING - Failed to process element 321: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,523 - ERROR - Failed to store element L-322: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,523 - WARNING - Failed to process element 322: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,529 - ERROR - Failed to store element L-323: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,529 - WARNING - Failed to process element 323: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,535 - ERROR - Failed to store element L-324: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,535 - WARNING - Failed to process element 324: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,540 - ERROR - Failed to store element L-325: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,541 - WARNING - Failed to process element 325: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,546 - ERROR - Failed to store element L-326: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,546 - WARNING - Failed to process element 326: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,551 - ERROR - Failed to store element L-327: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,551 - WARNING - Failed to process element 327: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,557 - ERROR - Failed to store element L-328: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,557 - WARNING - Failed to process element 328: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,562 - ERROR - Failed to store element L-329: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,562 - WARNING - Failed to process element 329: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,567 - ERROR - Failed to store element L-330: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,567 - WARNING - Failed to process element 330: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,572 - ERROR - Failed to store element L-331: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,573 - WARNING - Failed to process element 331: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,578 - ERROR - Failed to store element L-332: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,578 - WARNING - Failed to process element 332: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,583 - ERROR - Failed to store element L-333: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,583 - WARNING - Failed to process element 333: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,588 - ERROR - Failed to store element L-334: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,588 - WARNING - Failed to process element 334: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,593 - ERROR - Failed to store element L-335: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,594 - WARNING - Failed to process element 335: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,598 - ERROR - Failed to store element L-336: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,598 - WARNING - Failed to process element 336: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,604 - ERROR - Failed to store element L-337: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,604 - WARNING - Failed to process element 337: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,610 - ERROR - Failed to store element L-338: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,610 - WARNING - Failed to process element 338: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,616 - ERROR - Failed to store element L-339: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,616 - WARNING - Failed to process element 339: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,621 - ERROR - Failed to store element L-340: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,621 - WARNING - Failed to process element 340: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,627 - ERROR - Failed to store element L-341: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,627 - WARNING - Failed to process element 341: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,632 - ERROR - Failed to store element L-342: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,632 - WARNING - Failed to process element 342: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,636 - ERROR - Failed to store element L-343: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,637 - WARNING - Failed to process element 343: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,642 - ERROR - Failed to store element L-344: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,642 - WARNING - Failed to process element 344: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,647 - ERROR - Failed to store element L-345: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,647 - WARNING - Failed to process element 345: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,652 - ERROR - Failed to store element L-346: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,652 - WARNING - Failed to process element 346: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,658 - ERROR - Failed to store element L-347: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,658 - WARNING - Failed to process element 347: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,663 - ERROR - Failed to store element L-348: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,663 - WARNING - Failed to process element 348: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,668 - ERROR - Failed to store element L-349: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,668 - WARNING - Failed to process element 349: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,675 - ERROR - Failed to store element L-350: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,675 - WARNING - Failed to process element 350: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,681 - ERROR - Failed to store element L-351: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,681 - WARNING - Failed to process element 351: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,686 - ERROR - Failed to store element L-352: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,686 - WARNING - Failed to process element 352: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,692 - ERROR - Failed to store element L-353: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,692 - WARNING - Failed to process element 353: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,697 - ERROR - Failed to store element L-354: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,697 - WARNING - Failed to process element 354: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,702 - ERROR - Failed to store element L-355: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,702 - WARNING - Failed to process element 355: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,709 - ERROR - Failed to store element L-356: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,710 - WARNING - Failed to process element 356: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,715 - ERROR - Failed to store element L-357: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,715 - WARNING - Failed to process element 357: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,720 - ERROR - Failed to store element L-358: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,720 - WARNING - Failed to process element 358: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,725 - ERROR - Failed to store element L-359: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,725 - WARNING - Failed to process element 359: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,731 - ERROR - Failed to store element L-360: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,731 - WARNING - Failed to process element 360: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,735 - ERROR - Failed to store element L-361: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,735 - WARNING - Failed to process element 361: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,741 - ERROR - Failed to store element L-362: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,741 - WARNING - Failed to process element 362: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,746 - ERROR - Failed to store element L-363: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,746 - WARNING - Failed to process element 363: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,751 - ERROR - Failed to store element L-364: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,751 - WARNING - Failed to process element 364: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,757 - ERROR - Failed to store element L-365: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,757 - WARNING - Failed to process element 365: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,763 - ERROR - Failed to store element L-366: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,763 - WARNING - Failed to process element 366: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,769 - ERROR - Failed to store element L-367: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,770 - WARNING - Failed to process element 367: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,777 - ERROR - Failed to store element L-368: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,777 - WARNING - Failed to process element 368: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,782 - ERROR - Failed to store element L-369: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,782 - WARNING - Failed to process element 369: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,787 - ERROR - Failed to store element L-370: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,788 - WARNING - Failed to process element 370: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,793 - ERROR - Failed to store element L-371: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,794 - WARNING - Failed to process element 371: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,798 - ERROR - Failed to store element L-372: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,798 - WARNING - Failed to process element 372: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,803 - ERROR - Failed to store element L-373: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,803 - WARNING - Failed to process element 373: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,809 - ERROR - Failed to store element L-374: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,809 - WARNING - Failed to process element 374: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,814 - ERROR - Failed to store element L-375: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,814 - WARNING - Failed to process element 375: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,819 - ERROR - Failed to store element L-376: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,819 - WARNING - Failed to process element 376: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,825 - ERROR - Failed to store element L-377: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,825 - WARNING - Failed to process element 377: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,830 - ERROR - Failed to store element L-378: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,830 - WARNING - Failed to process element 378: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,835 - ERROR - Failed to store element L-379: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,835 - WARNING - Failed to process element 379: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,840 - ERROR - Failed to store element L-380: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,840 - WARNING - Failed to process element 380: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,846 - ERROR - Failed to store element L-381: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,846 - WARNING - Failed to process element 381: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,851 - ERROR - Failed to store element L-382: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,851 - WARNING - Failed to process element 382: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,855 - ERROR - Failed to store element L-383: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,855 - WARNING - Failed to process element 383: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,861 - ERROR - Failed to store element L-384: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,861 - WARNING - Failed to process element 384: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,866 - ERROR - Failed to store element L-385: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,866 - WARNING - Failed to process element 385: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,871 - ERROR - Failed to store element L-386: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,871 - WARNING - Failed to process element 386: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,877 - ERROR - Failed to store element L-387: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,877 - WARNING - Failed to process element 387: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,882 - ERROR - Failed to store element L-388: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,882 - WARNING - Failed to process element 388: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,887 - ERROR - Failed to store element L-389: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,887 - WARNING - Failed to process element 389: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,894 - ERROR - Failed to store element L-390: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,894 - WARNING - Failed to process element 390: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,899 - ERROR - Failed to store element L-391: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,899 - WARNING - Failed to process element 391: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,904 - ERROR - Failed to store element L-392: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,904 - WARNING - Failed to process element 392: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,910 - ERROR - Failed to store element L-393: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,910 - WARNING - Failed to process element 393: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,915 - ERROR - Failed to store element L-394: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,915 - WARNING - Failed to process element 394: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,920 - ERROR - Failed to store element L-395: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,920 - WARNING - Failed to process element 395: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,927 - ERROR - Failed to store element L-396: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,927 - WARNING - Failed to process element 396: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,932 - ERROR - Failed to store element L-397: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,932 - WARNING - Failed to process element 397: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,937 - ERROR - Failed to store element L-398: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,937 - WARNING - Failed to process element 398: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,943 - ERROR - Failed to store element L-399: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,944 - WARNING - Failed to process element 399: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,949 - ERROR - Failed to store element L-400: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,949 - WARNING - Failed to process element 400: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,954 - ERROR - Failed to store element L-401: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,954 - WARNING - Failed to process element 401: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,961 - ERROR - Failed to store element L-402: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,961 - WARNING - Failed to process element 402: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,966 - ERROR - Failed to store element L-403: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,966 - WARNING - Failed to process element 403: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,971 - ERROR - Failed to store element L-404: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,971 - WARNING - Failed to process element 404: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,978 - ERROR - Failed to store element L-405: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,978 - WARNING - Failed to process element 405: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,983 - ERROR - Failed to store element L-406: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,983 - WARNING - Failed to process element 406: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,988 - ERROR - Failed to store element L-407: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,988 - WARNING - Failed to process element 407: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,994 - ERROR - Failed to store element L-408: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:51,994 - WARNING - Failed to process element 408: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,000 - ERROR - Failed to store element L-409: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,000 - WARNING - Failed to process element 409: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,004 - ERROR - Failed to store element L-410: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,004 - WARNING - Failed to process element 410: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,011 - ERROR - Failed to store element L-411: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,011 - WARNING - Failed to process element 411: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,016 - ERROR - Failed to store element L-412: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,016 - WARNING - Failed to process element 412: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,022 - ERROR - Failed to store element L-413: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,022 - WARNING - Failed to process element 413: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,027 - ERROR - Failed to store element L-414: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,028 - WARNING - Failed to process element 414: UNIQUE constraint failed: elements.label
+2025-04-02 22:30:52,131 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250402_223048_labeled.png
+2025-04-02 22:44:59,834 - ERROR - Database error: no such column: session_id
+2025-04-02 22:44:59,836 - ERROR - Initialization failed: no such column: session_id
+2025-04-02 22:52:26,527 - INFO - Database initialized successfully
+2025-04-02 22:52:26,529 - INFO - ElementLabeler initialized successfully
+2025-04-02 22:52:35,581 - INFO - Starting capture and label for https://www.flipkart.com (session: 3d258afd-f97f-4631-8604-59ea09a73df1)
+2025-04-02 22:52:35,593 - INFO - Cleared elements for session 3d258afd-f97f-4631-8604-59ea09a73df1
+2025-04-02 22:52:40,529 - ERROR - Capture and label failed: Page.goto: wait_until: expected one of (load|domcontentloaded|networkidle|commit)
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/Desktop bullcrap/Pure Storage/AI-Project/Selector/element_labeler.py", line 162, in capture_and_label
+    page.goto(url, wait_until=["domcontentloaded", "networkidle"], timeout=90000)
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/sync_api/_generated.py", line 9018, in goto
+    self._sync(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_page.py", line 551, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: wait_until: expected one of (load|domcontentloaded|networkidle|commit)
+2025-04-02 22:59:59,756 - INFO - Database initialized successfully
+2025-04-02 22:59:59,758 - INFO - ElementLabeler initialized successfully
+2025-04-02 23:00:10,806 - INFO - Starting capture and label for https://www.flipkart.com (session: 4c057c2c-e9be-458f-b489-dd63bcfd63ab)
+2025-04-02 23:00:10,811 - INFO - Cleared elements for session 4c057c2c-e9be-458f-b489-dd63bcfd63ab
+2025-04-02 23:00:20,891 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250402_230020.png
+2025-04-02 23:00:21,176 - INFO - Found 414 elements to label
+2025-04-02 23:00:23,957 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250402_230020_labeled.png
+2025-04-02 23:00:33,191 - INFO - Database initialized successfully
+2025-04-02 23:00:33,192 - INFO - ElementLabeler initialized successfully
+2025-04-02 23:01:02,583 - INFO - Starting capture and label for https://www.flipkart.com (session: 5d744858-11a4-4442-b586-51a0c48a1040)
+2025-04-02 23:01:02,593 - INFO - Cleared elements for session 5d744858-11a4-4442-b586-51a0c48a1040
+2025-04-02 23:01:09,182 - ERROR - Capture and label failed: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.flipkart.com/", waiting until "networkidle"
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/Desktop bullcrap/Pure Storage/AI-Project/Selector/element_labeler.py", line 162, in capture_and_label
+    page.goto(url, wait_until="networkidle", timeout=90000)
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/sync_api/_generated.py", line 9018, in goto
+    self._sync(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_page.py", line 551, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.flipkart.com/", waiting until "networkidle"
+
+2025-04-02 23:06:00,755 - INFO - Database initialized successfully
+2025-04-02 23:06:00,756 - INFO - ElementLabeler initialized successfully
+2025-04-02 23:06:28,644 - INFO - Starting capture and label for https://www.flipkart.com (session: b48ff809-9525-44c1-b32b-6bd5b9b8bec6)
+2025-04-02 23:06:28,653 - INFO - Cleared elements for session b48ff809-9525-44c1-b32b-6bd5b9b8bec6
+2025-04-02 23:06:32,214 - ERROR - Error during page interaction: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.flipkart.com/", waiting until "networkidle"
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/Desktop bullcrap/Pure Storage/AI-Project/Selector/element_labeler.py", line 183, in capture_and_label
+    response = page.goto(url, wait_until="networkidle", timeout=120000)
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/sync_api/_generated.py", line 9018, in goto
+    self._sync(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_page.py", line 551, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.flipkart.com/", waiting until "networkidle"
+
+2025-04-02 23:06:32,560 - ERROR - Capture and label failed: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.flipkart.com/", waiting until "networkidle"
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/Desktop bullcrap/Pure Storage/AI-Project/Selector/element_labeler.py", line 183, in capture_and_label
+    response = page.goto(url, wait_until="networkidle", timeout=120000)
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/sync_api/_generated.py", line 9018, in goto
+    self._sync(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_page.py", line 551, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.flipkart.com/", waiting until "networkidle"
+
+2025-04-02 23:30:54,478 - INFO - ElementLabeler initialized successfully
+2025-04-02 23:31:01,293 - INFO - Starting capture and label for https://webscraper.io/test-sites (session: 17c3f679-caa0-4e20-a0fd-45f537c35d2b)
+2025-04-02 23:31:01,308 - ERROR - Capture and label failed: 'ElementLabeler' object has no attribute 'clear_session_elements'
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/Desktop bullcrap/Pure Storage/AI-Project/Selector/element_labeler.py", line 180, in capture_and_label
+    self.clear_session_elements()
+AttributeError: 'ElementLabeler' object has no attribute 'clear_session_elements'
+2025-04-02 23:31:01,320 - WARNING - Attempt 1 failed. Retrying in 5s...
+2025-04-02 23:31:06,326 - INFO - Starting capture and label for https://webscraper.io/test-sites (session: 17c3f679-caa0-4e20-a0fd-45f537c35d2b)
+2025-04-02 23:31:06,327 - ERROR - Capture and label failed: 'ElementLabeler' object has no attribute 'clear_session_elements'
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/Desktop bullcrap/Pure Storage/AI-Project/Selector/element_labeler.py", line 180, in capture_and_label
+    self.clear_session_elements()
+AttributeError: 'ElementLabeler' object has no attribute 'clear_session_elements'
+2025-04-02 23:31:06,328 - WARNING - Attempt 2 failed. Retrying in 10s...
+2025-04-02 23:31:16,334 - INFO - Starting capture and label for https://webscraper.io/test-sites (session: 17c3f679-caa0-4e20-a0fd-45f537c35d2b)
+2025-04-02 23:31:16,335 - ERROR - Capture and label failed: 'ElementLabeler' object has no attribute 'clear_session_elements'
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/Desktop bullcrap/Pure Storage/AI-Project/Selector/element_labeler.py", line 180, in capture_and_label
+    self.clear_session_elements()
+AttributeError: 'ElementLabeler' object has no attribute 'clear_session_elements'
+2025-04-02 23:31:31,500 - INFO - Database initialized successfully
+2025-04-02 23:31:31,501 - INFO - ElementLabeler initialized successfully
+2025-04-02 23:31:35,444 - INFO - Starting capture and label for https://webscraper.io/test-sites (session: a0d07edd-3409-4aa7-aa11-c55567d88236)
+2025-04-02 23:31:35,449 - INFO - Cleared elements for session a0d07edd-3409-4aa7-aa11-c55567d88236
+2025-04-02 23:32:03,911 - ERROR - Error during page interaction: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://webscraper.io/test-sites", waiting until "networkidle"
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/Desktop bullcrap/Pure Storage/AI-Project/Selector/element_labeler.py", line 183, in capture_and_label
+    response = page.goto(url, wait_until="networkidle", timeout=120000)
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/sync_api/_generated.py", line 9020, in goto
+    self._sync(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://webscraper.io/test-sites", waiting until "networkidle"
+
+2025-04-02 23:32:04,120 - ERROR - Capture and label failed: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://webscraper.io/test-sites", waiting until "networkidle"
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/Desktop bullcrap/Pure Storage/AI-Project/Selector/element_labeler.py", line 183, in capture_and_label
+    response = page.goto(url, wait_until="networkidle", timeout=120000)
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/sync_api/_generated.py", line 9020, in goto
+    self._sync(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/Users/rajneeshverma/opt/anaconda3/lib/python3.9/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://webscraper.io/test-sites", waiting until "networkidle"
+
+2025-04-02 23:38:12,051 - INFO - ElementLabeler initialized successfully
+2025-04-02 23:38:24,896 - INFO - Starting capture and label for https://webscraper.io/test-sites/e-commerce/allinone (session: 4e346c2e-e002-4618-928c-f748280f4adc)
+2025-04-02 23:38:24,901 - INFO - Cleared elements for session 4e346c2e-e002-4618-928c-f748280f4adc
+2025-04-02 23:38:35,991 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250402_233835.png
+2025-04-02 23:38:36,040 - INFO - Found 42 elements to label
+2025-04-02 23:38:36,598 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250402_233835_labeled.png
+2025-04-02 23:46:13,873 - INFO - ElementLabeler initialized successfully
+2025-04-02 23:47:06,898 - INFO - Starting capture and label for https://webscraper.io/test-sites/e-commerce/allinone (session: e9472927-0aa1-4a5e-bad5-2e7d7e2785af)
+2025-04-02 23:47:06,911 - INFO - Cleared elements for session e9472927-0aa1-4a5e-bad5-2e7d7e2785af
+2025-04-02 23:47:16,783 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250402_234716.png
+2025-04-02 23:47:16,868 - INFO - Found 42 elements to label
+2025-04-02 23:47:17,604 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250402_234716_labeled.png
+2025-04-02 23:48:46,400 - INFO - ElementLabeler initialized successfully
