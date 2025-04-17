@@ -62,12 +62,8 @@ def generate_and_run_test(url, prompt, use_labels=False):
                 print(f"Warning: Label {action['label']} not found")
         else:
             processed_actions.append(action)
-
-    # Rest of your existing test generation logic...
     test_file = "tests/generated_test.spec.js"
     os.makedirs("tests", exist_ok=True)
-    
-    # Modified test template with label support
     test_code = f"""
 import {{ test, expect }} from '@playwright/test';
 

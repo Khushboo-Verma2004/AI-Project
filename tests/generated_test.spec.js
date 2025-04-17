@@ -2,24 +2,14 @@
 import { test, expect } from '@playwright/test';
 
 test('Generated Test', async ({ page }) => {
-    console.log("Navigating to https://webscraper.io/test-sites/e-commerce/allinone...");
-    await page.goto('https://webscraper.io/test-sites/e-commerce/allinone', { waitUntil: "domcontentloaded", timeout: 60000 });
+    console.log("Navigating to https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops...");
+    await page.goto('https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops', { waitUntil: "domcontentloaded", timeout: 60000 });
 
     // Action execution
     const actions = [
   {
-    "type": "fill",
-    "selector": "input[type=\"text\"]",
-    "value": "iphone 11"
-  },
-  {
-    "type": "press",
-    "selector": "input[type=\"text\"]",
-    "value": "Enter"
-  },
-  {
-    "type": "waitForSelector",
-    "selector": ".col-md-4.col-xl-4.col-lg-4"
+    "type": "click",
+    "selector": "a[href='/test-sites/e-commerce/allinone/computers/laptops']"
   }
 ];
     for (const action of actions) {

@@ -205,34 +205,48 @@ class ElementLabeler:
         try:
             img = Image.open(screenshot_path)
             draw = ImageDraw.Draw(img)
+            
             for idx, element in enumerate(elements, 1):
                 try:
                     box = element.bounding_box()
                     if not box:
                         continue
+                    
                     label = f"L-{idx}"
+                    
+                    # Draw bounding box
                     draw.rectangle(
                         [(box['x'], box['y']), (box['x'] + box['width'], box['y'] + box['height'])],
                         outline="red",
                         width=2
                     )
-                    text_width, text_height = draw.textsize(label, font=self.font)
+                    
+                    # Get text size using textbbox (modern replacement for textsize)
+                    text_bbox = draw.textbbox((0, 0), label, font=self.font)
+                    text_width = text_bbox[2] - text_bbox[0]
+                    text_height = text_bbox[3] - text_bbox[1]
+                    
+                    # Draw label background
                     draw.rectangle(
                         [(box['x'], box['y'] - text_height - 5), (box['x'] + text_width + 5, box['y'] - 5)],
                         fill="white"
                     )
+                    
+                    # Draw label text
                     draw.text(
                         (box['x'] + 2, box['y'] - text_height - 3),
                         label,
                         fill="red",
                         font=self.font
                     )
+                    
                     element_type = element.evaluate('el => el.tagName.toLowerCase()')
                     selector = self._generate_selector(element)
                     self._store_element(label, screenshot_path, selector, box, element_type)
                 except Exception as e:
                     logging.warning(f"Failed to process element {idx}: {str(e)}", exc_info=True)
                     continue
+            
             labeled_path = screenshot_path.replace(".png", "_labeled.png")
             img.save(labeled_path)
             logging.info(f"Labeled image saved to {labeled_path}")
