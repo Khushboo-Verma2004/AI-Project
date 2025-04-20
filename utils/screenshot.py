@@ -7,15 +7,18 @@ import cv2
 import numpy as np
 from typing import Optional, Dict, Tuple, Any
 from PIL import Image, ImageDraw, ImageFont
+from pathlib import Path
 
 # Configuration
-SCREENSHOT_DIR = "screenshots"
-LABELS_FILE = "element_labels.json"
-DB_FILE = "elements.db"
-DEBUG_DIR = "debug_logs"
-SESSION_FILE = "session_state.json"
-os.makedirs(SCREENSHOT_DIR, exist_ok=True)
-os.makedirs(DEBUG_DIR, exist_ok=True)
+DATA_DIR = Path("data")
+DATA_DIR.mkdir(exist_ok=True)
+SCREENSHOT_DIR = DATA_DIR / "screenshots"
+SCREENSHOT_DIR.mkdir(exist_ok=True)
+LABELS_FILE = DATA_DIR / "element_labels.json"
+DB_FILE = DATA_DIR / "elements.db"
+DEBUG_DIR = DATA_DIR / "debug_logs"
+DEBUG_DIR.mkdir(exist_ok=True)
+SESSION_FILE = DATA_DIR / "session_state.json"
 
 class SessionManager:
     """Handles browser session persistence and state management"""
@@ -83,7 +86,7 @@ def log_debug(message: str) -> None:
     """Enhanced logging with timestamps"""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_entry = f"[{timestamp}] {message}"
-    with open(os.path.join(DEBUG_DIR, "screenshot_debug.log"), "a") as log_file:
+    with open(DEBUG_DIR / "screenshot_debug.log", "a") as log_file:
         log_file.write(log_entry + "\n")
     print(log_entry)
 
@@ -97,7 +100,7 @@ def capture_screenshot(url: str, is_uploaded: bool = False, use_session: bool = 
     Returns:
         Tuple of (screenshot_path, page_title)
     """
-    screenshot_path = os.path.join(SCREENSHOT_DIR, f"screenshot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
+    screenshot_path = SCREENSHOT_DIR / f"screenshot_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
     
     try:
         if not use_session:
@@ -113,7 +116,7 @@ def capture_screenshot(url: str, is_uploaded: bool = False, use_session: bool = 
                     page.goto(url, wait_until="networkidle", timeout=60000)
                 
                 page_title = page.title()
-                page.screenshot(path=screenshot_path, full_page=True, type="png", quality=90)
+                page.screenshot(path=str(screenshot_path), full_page=True, type="png", quality=90)
                 browser.close()
         else:
             # Use persistent session
@@ -126,11 +129,11 @@ def capture_screenshot(url: str, is_uploaded: bool = False, use_session: bool = 
                 session_manager.page.goto(url, wait_until="networkidle", timeout=60000)
             
             page_title = session_manager.page.title()
-            session_manager.page.screenshot(path=screenshot_path, full_page=True, type="png", quality=90)
+            session_manager.page.screenshot(path=str(screenshot_path), full_page=True, type="png", quality=90)
             session_manager.save_session_state()
         
         log_debug(f"Screenshot captured: {screenshot_path}")
-        return screenshot_path, page_title
+        return str(screenshot_path), page_title
         
     except Exception as e:
         log_debug(f"Error capturing screenshot: {str(e)}")
@@ -189,7 +192,8 @@ def _process_page_elements(page) -> Dict[str, Any]:
     element_data = {}
     elements = page.query_selector_all("""
         button, a, input, textarea, select, 
-        [role=button], [onclick], [tabindex]
+        [role=button], [onclick], [tabindex],
+        [data-testid], [data-qa], [data-test], [data-cy]
     """)
     
     for index, element in enumerate(elements):
@@ -218,13 +222,19 @@ def generate_best_selector(element):
         if element_id:
             return f"#{element_id}"
             
-        # Priority 2: Unique attribute combination
-        for attr in ["name", "aria-label", "data-testid", "title"]:
+        # Priority 2: Data attributes
+        for attr in ["data-testid", "data-qa", "data-test", "data-cy"]:
             attr_value = element.get_attribute(attr)
             if attr_value:
                 return f"[{attr}='{attr_value}']"
                 
-        # Priority 3: Text content (last resort)
+        # Priority 3: Unique attribute combination
+        for attr in ["name", "aria-label", "title"]:
+            attr_value = element.get_attribute(attr)
+            if attr_value:
+                return f"[{attr}='{attr_value}']"
+                
+        # Priority 4: Text content (last resort)
         text = element.text_content().strip()
         if text and len(text) < 50:
             return f"text='{text}'"
@@ -240,7 +250,9 @@ def generate_best_selector(element):
 def get_important_attributes(element):
     """Extract key attributes for better identification"""
     attrs = {}
-    for attr in ["id", "class", "name", "type", "role", "data-testid", "aria-label"]:
+    for attr in ["id", "class", "name", "type", "role", 
+                "data-testid", "data-qa", "data-test", "data-cy",
+                "aria-label"]:
         value = element.get_attribute(attr)
         if value:
             attrs[attr] = value

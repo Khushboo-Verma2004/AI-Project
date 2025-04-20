@@ -3581,3 +3581,69 @@ playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, 
 2025-04-16 17:04:49,609 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250416_170448.png
 2025-04-16 17:04:49,683 - INFO - Found 158 elements to label
 2025-04-16 17:04:51,939 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250416_170448_labeled.png
+2025-04-17 14:13:20,080 - ERROR - Database error: no such column: url
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/AI-Project/Selector/element_labeler.py", line 92, in _init_db
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_url ON elements (url)")
+sqlite3.OperationalError: no such column: url
+2025-04-17 14:13:20,081 - ERROR - Initialization failed: no such column: url
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/AI-Project/Selector/element_labeler.py", line 50, in __init__
+    self._init_db()
+  File "/Users/rajneeshverma/Desktop/AI-Project/Selector/element_labeler.py", line 92, in _init_db
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_url ON elements (url)")
+sqlite3.OperationalError: no such column: url
+2025-04-19 13:46:30,623 - ERROR - Initialization failed: 'ElementLabeler' object has no attribute '_init_db'
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/AI-Project/Selector/element_labeler.py", line 50, in __init__
+    self._init_db()
+AttributeError: 'ElementLabeler' object has no attribute '_init_db'
+2025-04-19 13:47:15,757 - ERROR - Initialization failed: 'ElementLabeler' object has no attribute '_ElementLabeler__init__db'
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/AI-Project/Selector/element_labeler.py", line 50, in __init__
+    self.__init__db()
+AttributeError: 'ElementLabeler' object has no attribute '_ElementLabeler__init__db'
+2025-04-19 13:51:55,526 - INFO - ElementLabeler initialized with session ID: 75381f00-621d-4d4d-9a04-f85661351e45
+2025-04-19 20:16:20,193 - INFO - ElementLabeler initialized with session ID: 0239d9e0-8de8-478c-a98b-fe1f66c1bf22
+2025-04-19 20:16:24,533 - INFO - Starting capture and label for https://www.flipkart.com (session: 0239d9e0-8de8-478c-a98b-fe1f66c1bf22)
+2025-04-19 20:16:24,535 - INFO - Cleared elements for session 0239d9e0-8de8-478c-a98b-fe1f66c1bf22
+2025-04-19 20:16:35,862 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250419_201634.png
+2025-04-19 20:16:36,454 - INFO - Found 418 elements to label
+2025-04-19 20:16:39,641 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250419_201634_labeled.png
+2025-04-19 20:17:01,426 - INFO - ElementLabeler initialized with session ID: 0c093171-c25b-4191-bbd7-16d00f778cf3
+2025-04-19 20:17:17,557 - INFO - Starting capture and label for https://www.flipkart.com (session: 0c093171-c25b-4191-bbd7-16d00f778cf3)
+2025-04-19 20:17:27,576 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250419_201727.png
+2025-04-19 20:17:27,841 - INFO - Found 418 elements to label
+2025-04-19 20:17:31,102 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250419_201727_labeled.png
+2025-04-19 20:26:59,822 - INFO - ElementLabeler initialized with session ID: 7e2694da-915a-465d-b869-451737f74ce4
+2025-04-19 20:27:09,710 - INFO - Using existing labels for https://www.flipkart.com
+2025-04-19 20:27:17,614 - INFO - ElementLabeler initialized with session ID: 91c3f775-8e22-4a55-ae5a-0f7ea8f17684
+2025-04-19 20:27:33,911 - INFO - Using existing labels for https://www.flipkart.com
+2025-04-20 13:40:42,172 - ERROR - Database migration failed: no such column: selector_type
+2025-04-20 13:40:42,174 - ERROR - Database error: no such column: selector_type
+Traceback (most recent call last):
+  File "/Users/rajneeshverma/Desktop/AI-Project/Selector/element_labeler.py", line 136, in _init_db
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_selector_type ON elements (selector_type)")
+sqlite3.OperationalError: no such column: selector_type
+2025-04-20 13:40:42,178 - INFO - Created fresh database with new schema
+2025-04-20 13:40:42,179 - INFO - ElementLabeler initialized with session ID: 196d5dcb-ff6a-495e-9fe1-543a7ba18e20
+2025-04-20 13:40:49,679 - INFO - Starting capture and label for https://www.flipkart.com (session: 196d5dcb-ff6a-495e-9fe1-543a7ba18e20)
+2025-04-20 13:41:03,723 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250420_134103.png
+2025-04-20 13:41:03,990 - INFO - Found 418 elements to label
+2025-04-20 13:41:07,155 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250420_134103_labeled.png
+2025-04-20 13:41:30,533 - INFO - ElementLabeler initialized with session ID: 31678cd5-7c6d-4208-8416-153d4cbe50e9
+2025-04-20 13:41:56,905 - INFO - Using existing labels for https://www.flipkart.com
+2025-04-20 13:48:46,488 - INFO - ElementLabeler initialized with session ID: eec7d19f-505e-41e5-ae84-f2d0bafdbf0b
+2025-04-20 13:48:57,802 - INFO - Starting capture and label for https://www.flipkart.com (session: eec7d19f-505e-41e5-ae84-f2d0bafdbf0b)
+2025-04-20 13:49:08,084 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250420_134907.png
+2025-04-20 13:49:08,342 - INFO - Found 418 elements to label
+2025-04-20 13:49:11,684 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250420_134907_labeled.png
+2025-04-20 13:49:24,537 - INFO - ElementLabeler initialized with session ID: 33636292-02c4-44d0-ab74-b35e4c7694fd
+2025-04-20 13:49:41,109 - INFO - Using existing labels for https://www.flipkart.com
+2025-04-20 14:06:38,541 - INFO - ElementLabeler initialized with session ID: 75efca4e-8359-4412-932a-791ec83562bb
+2025-04-20 14:06:54,080 - INFO - ElementLabeler initialized with session ID: 604a018f-7ef7-40b0-a9f0-c7e93c16dc7f
+2025-04-20 14:07:10,300 - INFO - Starting capture and label for https://www.flipkart.com (session: 604a018f-7ef7-40b0-a9f0-c7e93c16dc7f)
+2025-04-20 14:07:10,302 - INFO - Cleared elements for session 604a018f-7ef7-40b0-a9f0-c7e93c16dc7f
+2025-04-20 14:07:19,889 - INFO - Screenshot saved to data/labeled_elements/screenshot_20250420_140719.png
+2025-04-20 14:07:20,142 - INFO - Found 418 elements to label
+2025-04-20 14:07:23,504 - INFO - Labeled image saved to data/labeled_elements/screenshot_20250420_140719_labeled.png

@@ -5,6 +5,7 @@ import re
 import time
 from datetime import datetime
 from dotenv import load_dotenv
+from functools import lru_cache
 
 load_dotenv()
 
@@ -27,6 +28,7 @@ def log_debug(message):
         f.write(log_entry + "\n")
     print(log_entry)
 
+@lru_cache(maxsize=100)
 def get_actions(html, prompt, model_name=None):
     """
     Enhanced AI action generator with fallback and retry mechanisms
@@ -68,7 +70,7 @@ def get_actions(html, prompt, model_name=None):
                 result["model_used"] = current_model
                 result["performance"] = {
                     "response_time": time.time() - start_time,
-                    "token_usage": len(processed_html) + len(prompt)  # Approximation
+                    "token_usage": _count_tokens(processed_html + prompt)
                 }
                 return result
                 
@@ -78,7 +80,11 @@ def get_actions(html, prompt, model_name=None):
                 time.sleep(2 ** attempt)  # Exponential backoff
     
     log_debug("All model attempts failed")
-    return None
+    return {"actions": [], "error": "All model attempts failed"}
+
+def _count_tokens(text):
+    """Simple token counting approximation"""
+    return len(text) // 4  # Rough estimate of 1 token per 4 characters
 
 def _call_ai_api(model, html, prompt, attempt):
     """Internal API call handler with enhanced error handling"""
@@ -177,12 +183,7 @@ def _extract_json_content(response_data):
 
 def optimize_html(html):
     """Reduce HTML size while preserving structure"""
-    # Basic optimization - implement more based on your needs
-    return re.sub(r'\s+', ' ', html)[:15000]  # Simple whitespace normalization
-
-# Utility function for label resolution
-def resolve_label_to_selector(label):
-    """Interface with screenshot system's label database"""
-    # This would connect to your screenshot.py's database
-    # Implement based on your storage solution
-    return f"[data-label='{label}']"  # Example implementation
+    # Remove excessive whitespace and comments
+    html = re.sub(r'<!--.*?-->', '', html, flags=re.DOTALL)
+    html = re.sub(r'\s+', ' ', html)
+    return html[:15000]  # Limit size
